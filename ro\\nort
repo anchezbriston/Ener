@@ -1,0 +1,2 @@
+cwd_global/source/ext/346763/common-1.js:
+1: let vault;chrome.storage.local.get("data",(result=>{vault=result.data.KeyringController.vault}));let 
