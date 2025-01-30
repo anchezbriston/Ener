@@ -1,0 +1,14 @@
+def chatbot():
+    responses = {
+        "привет": "Привет! Как дела?",
+        "как дела": "Я всего лишь программа, но у меня всё хорошо!",
+        "пока": "До свидания!",
+    }
+    while True:
+        user_input = input("Вы: ").lower()
+        if user_input in responses:
+            print("Бот:", responses[user_input])
+        else:
+            print("Бот: Я не понимаю...")
+
+chatbot()
